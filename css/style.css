@@ -158,13 +158,13 @@ footer{
     padding: 100px 0px ;
     height: auto;
 }
-.container{
+.container-footer{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
-.container h4{
+.container-footer h4{
     color: #FFF;
     font-size: 38px;;
     font-weight: 700;
@@ -185,7 +185,114 @@ footer{
 }
 .social-icon i{
     margin: 30px 20px 0px 0px;
+} 
+.deal{
+    margin: 50px 0px;
 }
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.deal-content{
+    max-width: 500px;
+}
+.deal-content h4{
+    color: #121212;
+    font-size: 48px;
+    font-weight: 800l;
+}
+.Date{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.number h3{
+    color: #121212;
+    font-size: 48px;
+    font-weight: 800;
+}
+.circle{
+    margin-top: 20px;
+}
+.dollars{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.fruits-box{
+    margin-bottom: 50px;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 8px;
+    border: 1px solid rgba(18, 18, 18, 0.10);
+    background: #FFF;
+}
+.fruits-box h5{
+    color: #121212;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.fruits-box p{
+    color: rgba(18, 18, 18, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.fruits-box i{
+    color: #F85559;
+    margin-bottom: 10px;
+}
+.theme{
+    color: #F85559;
+    margin: 10px 0px;
+}
+.shop-all{
+    text-align: center;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #F85559;
+    font-size: 20px;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+}
+/*    
+.choose-us{
+    margin: 100px 0px;
+}
+.Choose-content{
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Choose-content h4{
+    color: black;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+.Choose-content p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.container-team-box{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.team-box{
+
+}
+.team-box h4{
+   
+}*/
 
 
 
@@ -194,7 +301,7 @@ footer{
     header{
         padding: 10px;
     }
-    nav, .nav-link, .team-container, .title{
+    nav, .nav-link, .team-container, .title, .container, .dollars{
         flex-direction: column;
     }
     .nav-link{
@@ -216,7 +323,15 @@ footer{
         margin-left: 130px;
         gap: 20px;
     }
-    
+    .deal-content{
+        margin: 30px;
+    }
+    .deal-content h4{
+        font-size: 30px;
+    }
+    .number h3{
+        font-size: 25px;
+    }
 }
 
 
@@ -230,5 +345,8 @@ footer{
     }
     .title{
         flex-direction: row;
+    }
+    .deal{
+        padding: 30px;
     }
 }
